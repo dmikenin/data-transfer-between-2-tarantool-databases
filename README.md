@@ -1,10 +1,10 @@
-#Data transfer between 2 tarantool databases
+# Data transfer between 2 tarantool databases
 This script make transfer from old DB in Tarantool with 
 huge tables in mew DB in Tarantool with small 
 and optimized tables.
 
 
-###Description
+### Description
 We have db in production, which saved info 
 about telegram channels for ICQ channels. 
 We have old DB with 3 tables(spaces) and 
@@ -28,7 +28,7 @@ One telegram channel maybe have many ICQ channels.
 before launch script in production DB*
 
 
-###Schema projects
+### Schema projects
 * init.lua - schema db in lua script
 * script.py - launch script
 * transfer_data.py - class for process and transfer data
